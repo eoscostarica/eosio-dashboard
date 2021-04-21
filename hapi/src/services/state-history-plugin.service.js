@@ -130,7 +130,7 @@ const init = async () => {
   })
 
   ws.on('open', () => {
-    console.log('connected to state_history_plugin socket')
+    console.log('🚀 Connected to state_history_plugin socket')
   })
 
   ws.on('message', data => {
